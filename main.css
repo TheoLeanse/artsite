@@ -1,0 +1,21 @@
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+
+.display {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+}
