@@ -1,6 +1,8 @@
+/* DEFAULT */
+
 .main {
   max-width: 600px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .header {
@@ -10,12 +12,24 @@
   margin-bottom: 130px;
 }
 
-.display {
-  text-align: center;
-  margin: 0 auto;
+.gallery {
+  display: flex;
 }
 
 .image {
-  height: 300px;
-  width: 300px;
+  width: 100%;
+}
+
+.display {
+    min-width: 300px;
+}
+
+
+/* LARGE */
+
+@media (min-width: 800px) {
+
+  .hidden {
+    visibility: hidden;
+  }
 }
