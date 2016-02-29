@@ -24,12 +24,16 @@
     min-width: 300px;
 }
 
+.hidden {
+  display: none;
+}
 
 /* LARGE */
 
 @media (min-width: 800px) {
 
   .hidden {
+    display: inline-block;
     visibility: hidden;
   }
 }

@@ -1,6 +1,6 @@
 window.onload = () => {
 
-    const imageNodes = document.querySelectorAll('.image');
+    const imageNodes = document.querySelectorAll('.display');
     const images = Array.from(imageNodes);
 
     images.forEach(image => {
